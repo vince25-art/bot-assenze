@@ -7,7 +7,8 @@ import os
 # ─────────────────────────────────────────
 #  CONFIGURAZIONE
 # ─────────────────────────────────────────
-TOKEN = "MTQ4OTA0OTU2NDQ5NjUyNzU1MA.Gbwtjh.KgW_AktG114szt6fzLtnafE-lxD238tqOuGbwI"
+import os
+TOKEN = os.getenv("MTQ4OTA0OTU2NDQ5NjUyNzU1MA.GIQmre.vhLZPxZl-SOzf51MlTxCps9jxD9EWyB-LRCdt8")
 CONFIG_FILE = "config.json"
 
 # ─────────────────────────────────────────
